@@ -1,0 +1,20 @@
+﻿cff-version: 1.2.0
+message: "If you use these materials, please cite the associated article and repository release."
+title: "Computational Analysis of Grantha Manuscripts: Reproducibility Materials"
+type: software
+authors:
+  - name: "Vinod Chandra S S"
+version: "1.0.0"
+date-released: "2026-10-04"
+abstract: >-
+  Reproducibility materials for systematic evidence synthesis,
+  dataset-forensic analysis, provenance assessment, and a controlled
+  line-segmentation study of Grantha manuscripts.
+keywords:
+  - Grantha
+  - historical manuscripts
+  - palm-leaf manuscripts
+  - document image analysis
+  - line segmentation
+  - dataset forensics
+  - reproducibility

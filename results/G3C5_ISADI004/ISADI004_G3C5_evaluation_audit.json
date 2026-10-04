@@ -1,0 +1,179 @@
+{
+  "stage": "G3C-5",
+  "sample": "ISADI_004",
+  "evaluation": "logical-line polygon-union IoU",
+  "matching": "Hungarian one-to-one maximum total IoU",
+  "gt_logical_lines": 26,
+  "auto_lines": 26,
+  "image_width": 5616,
+  "image_height": 3744,
+  "gt_source_sha256": "1C4F00C8D91CFA0A56933FB967C48340FED460B360C862F747F33FA7496CDED7",
+  "auto_sha256": "622A96BD145DDA757F2F65879A7ACBF636582F6E2590063F07C1717B3E942541",
+  "thresholds": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "metrics": {
+    "0.25": {
+      "TP": 26,
+      "FP": 0,
+      "FN": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "0.5": {
+      "TP": 24,
+      "FP": 2,
+      "FN": 2,
+      "precision": 0.9230769230769231,
+      "recall": 0.9230769230769231,
+      "f1": 0.9230769230769231
+    },
+    "0.75": {
+      "TP": 1,
+      "FP": 25,
+      "FN": 25,
+      "precision": 0.038461538461538464,
+      "recall": 0.038461538461538464,
+      "f1": 0.038461538461538464
+    }
+  },
+  "mean_matched_iou": 0.6278305908891599,
+  "median_matched_iou": 0.6323487713703062,
+  "minimum_matched_iou": 0.46655699258941363,
+  "matches": [
+    {
+      "gt_line": 1,
+      "auto_line": 1,
+      "iou": 0.46655699258941363
+    },
+    {
+      "gt_line": 2,
+      "auto_line": 2,
+      "iou": 0.6971315182818291
+    },
+    {
+      "gt_line": 3,
+      "auto_line": 3,
+      "iou": 0.6948289107054504
+    },
+    {
+      "gt_line": 4,
+      "auto_line": 4,
+      "iou": 0.7053708012495019
+    },
+    {
+      "gt_line": 5,
+      "auto_line": 5,
+      "iou": 0.598796328863156
+    },
+    {
+      "gt_line": 6,
+      "auto_line": 6,
+      "iou": 0.6133291506548506
+    },
+    {
+      "gt_line": 7,
+      "auto_line": 7,
+      "iou": 0.6324335281365203
+    },
+    {
+      "gt_line": 8,
+      "auto_line": 8,
+      "iou": 0.46730664957854784
+    },
+    {
+      "gt_line": 9,
+      "auto_line": 9,
+      "iou": 0.6868180658331207
+    },
+    {
+      "gt_line": 10,
+      "auto_line": 10,
+      "iou": 0.6785467771052353
+    },
+    {
+      "gt_line": 11,
+      "auto_line": 11,
+      "iou": 0.6420669908051192
+    },
+    {
+      "gt_line": 12,
+      "auto_line": 12,
+      "iou": 0.6711711260480632
+    },
+    {
+      "gt_line": 13,
+      "auto_line": 13,
+      "iou": 0.5696521204412747
+    },
+    {
+      "gt_line": 14,
+      "auto_line": 14,
+      "iou": 0.5763075839215124
+    },
+    {
+      "gt_line": 15,
+      "auto_line": 15,
+      "iou": 0.7096879312988805
+    },
+    {
+      "gt_line": 16,
+      "auto_line": 16,
+      "iou": 0.5632795412898268
+    },
+    {
+      "gt_line": 17,
+      "auto_line": 17,
+      "iou": 0.6248658390297938
+    },
+    {
+      "gt_line": 18,
+      "auto_line": 18,
+      "iou": 0.6106531471356798
+    },
+    {
+      "gt_line": 19,
+      "auto_line": 19,
+      "iou": 0.5008324850665593
+    },
+    {
+      "gt_line": 20,
+      "auto_line": 20,
+      "iou": 0.6322640146040922
+    },
+    {
+      "gt_line": 21,
+      "auto_line": 21,
+      "iou": 0.6339914311624971
+    },
+    {
+      "gt_line": 22,
+      "auto_line": 22,
+      "iou": 0.6107616226608807
+    },
+    {
+      "gt_line": 23,
+      "auto_line": 23,
+      "iou": 0.7789028129099593
+    },
+    {
+      "gt_line": 24,
+      "auto_line": 24,
+      "iou": 0.729386906472388
+    },
+    {
+      "gt_line": 25,
+      "auto_line": 25,
+      "iou": 0.6542283858466825
+    },
+    {
+      "gt_line": 26,
+      "auto_line": 26,
+      "iou": 0.574424701427323
+    }
+  ],
+  "source_files_modified": false
+}
